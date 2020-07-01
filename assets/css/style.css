@@ -1,4 +1,36 @@
-/* Accueil Jessica */
 body {
-    background-color: #9C8678;
+    color: white;
+}
+.fond{
+    background-color: rgba(0, 0, 0, 0.8);  
+    background-size: contain;
+}
+nav{ 
+    background-color: #B32621;
+    position: static;
+    height: 100px;
+}
+a{
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+}
+.titleAccueil{
+    font-size: 3em;
+}
+h1, h2 {
+    color: #B32621;
+}
+.one p {
+    text-align: center;
+}
+.map {
+    margin-right: 10%;
+}
+
+/* Media queries */
+@media screen and (max-width: 640px){
+    .map {
+        margin: 0 auto;
+    }
 }

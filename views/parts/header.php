@@ -8,10 +8,11 @@
     <title><?= isset($title) ? $title : 'Non-défini' ?></title>
 </head>
 <body>
+   <div class="fond">
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark primary-color">
+    <nav class="navbar navbar-expand-lg">
        <!-- Navbar brand -->
-       <a class="navbar-brand" href="#">Ocordo</a>
+       <a class="navbar-brand d-lg-none" href="#">Ocordo</a>
        <!-- Collapse button -->
        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
            <span class="navbar-toggler-icon"></span>
@@ -19,7 +20,7 @@
        <!-- Collapsible content -->
        <div class="collapse navbar-collapse" id="basicExampleNav">
            <!-- Links -->
-           <ul class="navbar-nav mr-auto">
+           <ul class="navbar-nav mr-auto container-fluid">
                <li class="nav-item active">
                    <a class="nav-link" href="index.php?page=1">Accueil
                        <span class="sr-only">(current)</span>
@@ -39,3 +40,4 @@
        <!-- Collapsible content -->
     </nav>
     <!--/.Navbar-->
+     
