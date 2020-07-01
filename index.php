@@ -4,9 +4,8 @@
     $xmlContent = simplexml_load_file('source.xml');
 ?>
     <?php  
-    $page = 1;
+    $page = 0;
         echo $xmlContent->page[$page]->menu;
-        echo $xmlContent->page[$page]->title;
         echo $xmlContent->page[$page]->content;
     ?>
 </body>
