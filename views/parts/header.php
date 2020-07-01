@@ -21,18 +21,18 @@
            <!-- Links -->
            <ul class="navbar-nav mr-auto">
                <li class="nav-item active">
-                   <a class="nav-link" href="#">Accueil
+                   <a class="nav-link" name="accueil" href="index.php?page=1">Accueil
                        <span class="sr-only">(current)</span>
                    </a>
                </li>
                <li class="nav-item">
-                   <a class="nav-link" href="#">Qui somme nous ?</a>
+                   <a class="nav-link" name="quiSommeNous" href="index.php?page=2">Qui somme nous ?</a>
                </li>
                <li class="nav-item">
-                   <a class="nav-link" href="#">Nos clients témoignent</a>
+                   <a class="nav-link" name="nosClients" href="index.php?page=3">Nos clients témoignent</a>
                </li>
                <li class="nav-item">
-                   <a class="nav-link" href="#">Contact</a>
+                   <a class="nav-link" name="contact" href="index.php?page=4">Contact</a>
                </li>
            </ul>
            <!-- Links -->
