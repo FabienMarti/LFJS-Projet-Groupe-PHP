@@ -1,12 +1,12 @@
 <?php 
-    $title = 'Accueil';
-    include 'views/parts/header.php';
     $xmlContent = simplexml_load_file('source.xml');
+    $page = 1;
+    $title = $xmlContent->page[$page]->title;
+    include 'views/parts/header.php';
+    
 ?>
     <?php  
-    $page = 1;
         echo $xmlContent->page[$page]->menu;
-        echo $xmlContent->page[$page]->title;
         echo $xmlContent->page[$page]->content;
     ?>
 </body>
