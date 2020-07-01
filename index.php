@@ -7,10 +7,7 @@
     
 ?>
     <?php  
-<<<<<<< HEAD
     $page = 0;
-=======
->>>>>>> 1c54000873d1fc2a29ba7d1d903bb48b10741cb0
         echo $xmlContent->page[$page]->menu;
         echo $xmlContent->page[$page]->content;
     ?>
