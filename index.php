@@ -3,6 +3,7 @@
     $page = 1;
     $title = $xmlContent->page[$page]->title;
     include 'views/parts/header.php';
+    include 'controllers/indexController.php';
     
 ?>
     <?php  
