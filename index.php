@@ -5,7 +5,7 @@
     include 'views/parts/header.php';
 ?>
     <?php  
-    $page = 0;
+
         echo $xmlContent->page[$page]->menu;
         echo $xmlContent->page[$page]->content;
     ?>
