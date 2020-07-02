@@ -22,16 +22,16 @@
            <!-- Links -->
            <ul class="navbar-nav mr-auto container-fluid">
                <li class="nav-item <?= $_GET['page'] == 1 ? 'active' : ''?>">
-                   <a class="nav-link" href="index.php?page=1">Accueil</a>
+                   <a class="nav-link" href="1.html">Accueil</a>
                </li>
                <li class="nav-item <?= $_GET['page'] == 2 ? 'active' : ''?>">
-                   <a class="nav-link" href="index.php?page=2">Qui somme nous ?</a>
+                   <a class="nav-link" href="2.html">Qui somme nous ?</a>
                </li>
                <li class="nav-item <?= $_GET['page'] == 3 ? 'active' : ''?>">
-                   <a class="nav-link" href="index.php?page=3">Nos clients témoignent</a>
+                   <a class="nav-link" href="3.html">Nos clients témoignent</a>
                </li>
                <li class="nav-item <?= $_GET['page'] == 4 ? 'active' : ''?>">
-                   <a class="nav-link" href="index.php?page=4">Contact</a>
+                   <a class="nav-link" href="4.html">Contact</a>
                </li>
            </ul>
        </div>
