@@ -10,7 +10,7 @@
 <body>
    <div class="fond">
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-dark navbar-expand-lg ">
        <!-- Navbar brand -->
        <a class="navbar-brand d-lg-none" href="#">Ocordo</a>
        <!-- Collapse button -->
@@ -21,18 +21,18 @@
        <div class="collapse navbar-collapse" id="basicExampleNav">
            <!-- Links -->
            <ul class="navbar-nav mr-auto container-fluid">
-               <li class="nav-item active">
-                   <a class="nav-link" href="index.php?page=1">Accueil
-                       <span class="sr-only">(current)</span>
+               <li class="nav-item <?= $_GET['page'] == 1 ? 'active' : ''?>">
+                   <a class="nav-link" href="index.php?page=1">Accueil   
+                      
                    </a>
                </li>
-               <li class="nav-item">
+               <li class="nav-item <?= $_GET['page'] == 2 ? 'active' : ''?>">
                    <a class="nav-link" href="index.php?page=2">Qui somme nous ?</a>
                </li>
-               <li class="nav-item">
+               <li class="nav-item <?= $_GET['page'] == 3 ? 'active' : ''?>">
                    <a class="nav-link" href="index.php?page=3">Nos clients témoignent</a>
                </li>
-               <li class="nav-item">
+               <li class="nav-item <?= $_GET['page'] == 4 ? 'active' : ''?>">
                    <a class="nav-link" href="index.php?page=4">Contact</a>
                </li>
            </ul>
@@ -40,4 +40,3 @@
        <!-- Collapsible content -->
     </nav>
     <!--/.Navbar-->
-     

@@ -6,5 +6,4 @@
 ?>
     <?= $xmlContent->page[$page]->content; ?>
     </div>
-</body>
-</html>
+<?php include 'views/parts/footer.php'; ?>
