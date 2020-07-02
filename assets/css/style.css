@@ -26,12 +26,6 @@ h1, h2 {
 .map {
     margin-right: 10%;
 }
-footer{
-    background-color:rgba(0, 0, 0, 0.705);
-}
-.footer-copyright{
-    background-color:rgba(0, 0, 0, 0.13);
-}
 /* Media queries */
 @media screen and (max-width: 640px){
     .map {
