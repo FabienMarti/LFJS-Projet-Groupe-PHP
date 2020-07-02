@@ -10,11 +10,11 @@
 <body>
    <div class="fond">
     <!--Navbar-->
-    <nav class="navbar navbar-dark navbar-expand-lg ">
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top mb-5">
        <!-- Navbar brand -->
        <a class="navbar-brand d-lg-none" href="#">Ocordo</a>
        <!-- Collapse button -->
-       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="true" aria-label="Toggle navigation">
            <span class="navbar-toggler-icon"></span>
        </button>
        <!-- Collapsible content -->
@@ -22,9 +22,7 @@
            <!-- Links -->
            <ul class="navbar-nav mr-auto container-fluid">
                <li class="nav-item <?= $_GET['page'] == 1 ? 'active' : ''?>">
-                   <a class="nav-link" href="index.php?page=1">Accueil   
-                      
-                   </a>
+                   <a class="nav-link" href="index.php?page=1">Accueil</a>
                </li>
                <li class="nav-item <?= $_GET['page'] == 2 ? 'active' : ''?>">
                    <a class="nav-link" href="index.php?page=2">Qui somme nous ?</a>
