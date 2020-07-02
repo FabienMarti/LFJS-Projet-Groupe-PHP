@@ -10,11 +10,11 @@
 <body>
    <div class="fond">
     <!--Navbar-->
-    <nav class="navbar navbar-dark navbar-expand-lg h-100">
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top mb-5">
        <!-- Navbar brand -->
        <a class="navbar-brand d-lg-none" href="#">Ocordo</a>
        <!-- Collapse button -->
-       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="true" aria-label="Toggle navigation">
            <span class="navbar-toggler-icon"></span>
        </button>
        <!-- Collapsible content -->

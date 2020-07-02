@@ -7,7 +7,7 @@ body {
 }
 nav{ 
     background-color: #B32621;
-    position: static;
+    /* height: 100px; */
 }
 a{
     font-size: 22px;
@@ -26,7 +26,9 @@ h1, h2 {
 .map {
     margin-right: 10%;
 }
-
+.grosse{
+    height: 57vh;
+}
 /* Media queries */
 @media screen and (max-width: 640px){
     .map {
